@@ -29,8 +29,8 @@ int linearSearch(int arr[],int size, int key){
     
 }
 int main(){
-    int a[5] = {2,3,4,5,6};
-    int result = binarySearch(a,5,2);
+    int a[6] = {2,2,3,5,5,5};
+    int result = binarySearch(a,6,5);
     if(result==0){
         cout<<"Not found";
     }

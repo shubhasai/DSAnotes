@@ -6,8 +6,8 @@ int main(){
     int size = arr.size();
     k = k%size;
     reverse(arr.begin(),arr.begin()+(size-k));
-    reverse(arr.begin()+(size-k),arr.end());
-    reverse(arr.begin(),arr.end());
+     reverse(arr.begin()+(size-k),arr.end());
+   reverse(arr.begin(),arr.end());
     for (int i = 0; i < size; i++)
     {
         cout<<arr[i];
